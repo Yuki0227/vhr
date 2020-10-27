@@ -22,4 +22,4 @@ jobs:
     - name: Build with Maven
       run: cd ./vhr && mvn -B package --file pom.xml -Dmaven.test.skip=true
     - name: Check ans
-      run: ls
+      run: cd vhr/vhrserver/vhr-web && ls
